@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="अमरावती महानगरपालिका">
+  <!-- अमरावती महानगरपालिका — प्रणालीचे चिन्ह. अधिकृत लोगो मिळाल्यास हीच फाईल बदला (client/public/logo.svg). -->
+  <defs>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7a1f0e"/>
+      <stop offset="0.55" stop-color="#d9480f"/>
+      <stop offset="1" stop-color="#f59f00"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff7e6"/>
+      <stop offset="1" stop-color="#ffe8cc"/>
+    </linearGradient>
+    <path id="topArc" d="M 32 120 A 88 88 0 0 1 208 120"/>
+    <path id="botArc" d="M 26 120 A 94 94 0 0 0 214 120"/>
+  </defs>
+  <circle cx="120" cy="120" r="118" fill="url(#ring)"/>
+  <circle cx="120" cy="120" r="104" fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="2 5" opacity="0.7"/>
+  <circle cx="120" cy="120" r="70" fill="url(#sky)" stroke="#fff" stroke-width="4"/>
+  <text font-family="Mukta, 'Noto Sans Devanagari', sans-serif" font-size="25" font-weight="700" fill="#fff">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">अमरावती महानगरपालिका</textPath>
+  </text>
+  <text font-family="Roboto, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#fff" letter-spacing="1.6">
+    <textPath href="#botArc" startOffset="50%" text-anchor="middle">AMRAVATI MUNICIPAL CORPORATION</textPath>
+  </text>
+  <!-- सूर्य -->
+  <circle cx="120" cy="86" r="11" fill="#f59f00" opacity="0.35"/>
+  <!-- मुख्य इमारत: घुमट, ध्वज, खांब -->
+  <g fill="#7a1f0e">
+    <rect x="118.6" y="58" width="2.2" height="20"/>
+    <path d="M120.8 58 l14 4.5 -14 4.5 z" fill="#f08c00"/>
+    <path d="M100 99 q20 -28 40 0 z"/>
+    <rect x="96" y="99" width="48" height="5" rx="1"/>
+    <rect x="74" y="104" width="92" height="6" rx="1"/>
+    <g>
+      <rect x="80" y="110" width="7" height="30"/>
+      <rect x="93" y="110" width="7" height="30"/>
+      <rect x="106" y="110" width="7" height="30"/>
+      <rect x="127" y="110" width="7" height="30"/>
+      <rect x="140" y="110" width="7" height="30"/>
+      <rect x="153" y="110" width="7" height="30"/>
+    </g>
+    <path d="M114 140 v-17 a6 6 0 0 1 12 0 v17 z"/>
+    <rect x="70" y="140" width="100" height="6" rx="1"/>
+    <rect x="64" y="146" width="112" height="6" rx="1"/>
+  </g>
+  <!-- पाणी / विकासाच्या लहरी -->
+  <path d="M68 162 q13 -7 26 0 t26 0 t26 0 t26 0" fill="none" stroke="#1c7ed6" stroke-width="4" stroke-linecap="round"/>
+  <path d="M78 172 q10.5 -6 21 0 t21 0 t21 0 t21 0" fill="none" stroke="#2f9e44" stroke-width="4" stroke-linecap="round"/>
+  <!-- दोन्ही बाजूंचे तारे -->
+  <g fill="#fff">
+    <path d="M22 120 l4 -3 4 3 -4 3 z"/>
+    <path d="M210 120 l4 -3 4 3 -4 3 z"/>
+  </g>
+</svg>
